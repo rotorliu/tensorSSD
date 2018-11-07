@@ -14,11 +14,13 @@
 #include <iostream>
 #include <fstream>
 //#include <NvJpegEncoder.h>
-#include "Queue.h"
+#include <queue>
 #include "bufferStruct.hpp"
 #include "TensorSSD.hpp"
 
 using namespace std;
+
+#define queue Queue
 
 struct detectionParams
 {
