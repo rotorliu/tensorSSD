@@ -10,7 +10,7 @@
 #include "cudaUtility.h"
 #include "cudaMappedMemory.h"
 #include "PluginFactory.h"
-#include "bufferStruct.hpp"
+//#include "bufferStruct.hpp"
 #include "Logger.h"
 
 #define OUTPUT_CLS_SIZE 21 //SSD default
