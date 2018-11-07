@@ -15,7 +15,7 @@
 #include <fstream>
 //#include <NvJpegEncoder.h>
 #include <queue>
-#include "bufferStruct.hpp"
+//#include "bufferStruct.hpp"
 #include "TensorSSD.hpp"
 
 using namespace std;
