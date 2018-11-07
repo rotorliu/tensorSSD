@@ -14,7 +14,8 @@ CPPFLAGS += -std=c++11 \
 	-I"../common" \
 	-I"/usr/include/glib-2.0" \
 	-I"/usr/include/libxml2" \
-	-I"/usr/include"
+	-I"/usr/include" \
+	-I"/usr/local/cuda/include"
 
 
 LDFLAGS += \
