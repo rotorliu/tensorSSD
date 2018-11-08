@@ -5,6 +5,8 @@ SRCS+= $(wildcard *.cu)
 OBJS := $(SRCS:.cpp=.o)
 OBJS2+= $(SRCS:.cu=.o)
 
+CPP = g++
+
 CUCC = /usr/local/cuda-9.0/bin/nvcc
 
 CUFLAGS = -m64 -ccbin g++
